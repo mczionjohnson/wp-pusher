@@ -9,17 +9,14 @@
   <body>
     <div class="container">
       <div class="nav-card">
-        <nav>
-          <div><img src="./assets/wppusher-logo copy.png" alt="" /></div>
-
-          <div>
-            <ul>
-              <li>Download</li>
-              <li>Learn more</li>
-              <li>Pricing</li>
-              <li>Help</li>
-              <li>Account</li>
-            </ul>
+        <nav class="nav">
+          <div class="nav-icon"><img src="./assets/wppusher-logo copy.png" alt="" /></div>
+          <div class="nav-items">
+              <li ><a href="" class="nav-a">Download</a></li>
+              <li><a href="" class="nav-a">Learn more</a></li>
+              <li><a href="" class="nav-a">Pricing</a></li>
+              <li><a href="" class="nav-a">Help</a></li>
+              <li class="nav-li"><a href="" class="nav-a">Account</a></li>
           </div>
         </nav>
         <img src="./assets/Rectangle.png" alt="" />
@@ -45,6 +42,13 @@
                 <input type="text" placeholder="Doe" class="card-input" />
               </div>
             </div>
+            <div class="basic-txt">
+              <div class="email-flex">
+              <label for="">E-mail</label>
+              <input type="email" placeholder="janedoe@example.com" class="email-input"> 
+            </div>
+            </div>
+            
           </div>
           <img src="./assets/Rectangle.png" alt="" class="rectangle" />
           <div class="card-section">
@@ -52,61 +56,83 @@
               <div><img src="./assets/2.png" alt="" class="icon" /></div>
               <h4>Your Payment Information</h4>
             </div>
-            <div class="basic-txt">
-              <div><h4>Credit Card</h4></div>
-              <div><h4>Card Number</h4></div>
-              <div><h4>MM/YY</h4></div>
-              <div><h4>CVV</h4></div>
+            <div class="one">
+                <p class="one-txt">Credit Card</p>
+              </div>
+            <div class="credit-input">
+             
+              <div class="two">
+              <div class="card-number"><p class="one-txt">Card Number</p></div>
+              <div class="month-year"><p class="one-txt">MM/YY</p></div>
+              <div><p class="one-txt">CVV</p></div>
+            </div>
             </div>
           </div>
           <img src="./assets/Rectangle.png" alt="" class="rectangle" />
           <div class="card-section">
             <div>
-              <button>Buy WP Pusher</button>
+              <button class="btn">Buy WP Pusher</button>
             </div>
-            <div><img src="./assets/Mask.png" alt="" /></div>
-            <div><h4></h4></div>
-            <div>
-              <h4>Need any help? Don’t hesitate to contact support!</h4>
+            
+            <div class="basic-txt help-txt">
+              <div><img src="./assets/Mask.png" alt="" class="icon" /></div>
+              <p><b>Need any help?</b> Don’t hesitate to contact<br> support!</p>
             </div>
-            <div>
+
+            <div class="powered">
               <img src="./assets/Shape.png" alt="" />
             </div>
+
           </div>
         </div>
         <div class="right-card">
           <section>
-            <div><h3>Freelancer</h3></div>
-            <div><p>$</p></div>
+            <div><h3 class="freelancer">Freelancer</h3></div>
+            <div class="dollar">
+            <div class="dollar-sign"><h3>$</h3></div>
             <div>
-              <h3><span>99</span>/yr</h3>
+              <h3><span class="ninety-nine">99</span>/yr</h3>
+            </div>
             </div>
             <div>
-              <p>
+              <p class="automatic-txt">
                 Automatically renews <br />
                 after 1 year
               </p>
             </div>
           </section>
           <section>
-            <div>
-              <img src="./assets/Combined Shape.png" alt="" />
-              <p>Use on 5 client site</p>
+            <div class="basic-txt">
+              <div><img src="./assets/Combined Shape.png" alt="" class="tick-box"/></div>
+              <p class="tick-txt">Use on 5 client site</p>
             </div>
-            <div>
-              <img src="./assets/Combined Shape.png" alt="" />
-              <p>Private Repositories</p>
+            <div class="basic-txt">
+              <div><img src="./assets/Combined Shape.png" alt=""  class="tick-box"/></div>
+              <p class="tick-txt">Private Repositories</p>
             </div>
-            <div>
-              <img src="./assets/Combined Shape.png" alt="" />
-              <p>Email Support</p>
+            <div class="basic-txt">
+              <div><img src="./assets/Combined Shape.png" alt="" class="tick-box"/></div>
+              <p class="tick-txt">Email Support</p>
             </div>
+            <p>Need 20 client sites?<br>
+            <u class="switch">Switch to the Agency plan.</u></p>
           </section>
+          <img src="./assets/Rectangle.png" alt="" id="rectangle-right" />
+          <div>
+            <p class="ftp-txt">FTP is horrible to deal with.<br>
+              <strong>WP Pusher</strong> solves that issue, <br>
+              and the customer support is <br> 
+              awesome!</p>
+          </div>
+          <div class="basic-txt">
+            <div><img src="./assets/Bitmap.png" alt="" class="icon"></div>
+            <p>Kirk Beard</p>
+          </div>
         </div>
       </div>
       <div class="bottom-card">
         <div>
-          <h4>© 2018 WP Pusher IVS · <a href="">Terms of Service</a></h4>
+          <p  class="bottom-txt">© 2018 WP Pusher IVS · <span class="bottom">Terms of Service</span></p>
         </div>
       </div>
     </div>
